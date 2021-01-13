@@ -1,0 +1,33 @@
+.scroll-to-top {
+	position: fixed;
+	right: 40px;
+	top: 84vh;
+	z-index: 1000;
+	display: none;
+	padding-top: 20px;
+	border: 1px solid #ccc;
+	width: 56px;
+	height: 56px;
+	font-size: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.03);
+	animation: upAndDown 1s ease-out alternate infinite;
+}
+
+.scroll-arrow {
+	display: inline-block;
+	padding: 12px;
+	border: solid #34d158;
+	border-width: 0 3px 3px 0;
+	transform: rotate(-135deg);
+}
+
+@keyframes upAndDown {
+	0% {
+		transform: translateY(10px);
+	}
+
+	100% {
+		transform: translateY(-10px);
+	}
+}
