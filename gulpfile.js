@@ -13,6 +13,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const imagemin = require('gulp-imagemin');
 const newer = require('gulp-newer');
 const svgSprite = require('gulp-svg-sprite');
+const cheerio = require('gulp-cheerio');
 const rename = require('gulp-rename');
 const webpackStream = require('webpack-stream');
 const uglify = require('gulp-uglify-es').default;
@@ -140,8 +141,23 @@ const favicon = () => {
 
 const svgToSprite = () => {
 	return src(path.src.svg)
+		.pipe(cheerio({
+			run: function ($) {
+				$('[fill]').removeAttr('fill');
+				$('[stroke]').removeAttr('stroke');
+				$('[style]').removeAttr('style');
+			},
+			parserOptions: { xmlMode: true }
+		}))
 		.pipe(svgSprite({
 			mode: {
+				view: {
+					bust: false,
+					render: {
+						scss: true
+					}
+				},
+				symbol: true,
 				stack: {
 					sprite: '../sprite.svg'
 				}

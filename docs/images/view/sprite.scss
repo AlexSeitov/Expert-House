@@ -1,0 +1,304 @@
+%svg-common {
+	background: url("svg/sprite.view.svg") no-repeat;
+}
+
+.svg-about--about-icon-1 {
+	@extend %svg-common;
+	background-position: 98.51632047477744% 44.95412844036697%;
+}
+
+.svg-about--about-icon-1-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-about--about-icon-2 {
+	@extend %svg-common;
+	background-position: 76.36003956478734% 57.88990825688074%;
+}
+
+.svg-about--about-icon-2-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-about--about-icon-3 {
+	@extend %svg-common;
+	background-position: 76.28458498023716% 86.98441796516957%;
+}
+
+.svg-about--about-icon-3-dims {
+	width: 109px;
+	height: 105px;
+}
+
+.svg-about--about-icon-4 {
+	@extend %svg-common;
+	background-position: 87.24035608308606% 57.88990825688074%;
+}
+
+.svg-about--about-icon-4-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-benefits--benefits-1 {
+	@extend %svg-common;
+	background-position: 98.12067260138477% 57.88990825688074%;
+}
+
+.svg-benefits--benefits-1-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-benefits--benefits-2 {
+	@extend %svg-common;
+	background-position: 76.36003956478734% 67.61467889908256%;
+}
+
+.svg-benefits--benefits-2-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-benefits--benefits-3 {
+	@extend %svg-common;
+	background-position: 87.24035608308606% 67.61467889908256%;
+}
+
+.svg-benefits--benefits-3-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-benefits--benefits-4 {
+	@extend %svg-common;
+	background-position: 98.12067260138477% 67.61467889908256%;
+}
+
+.svg-benefits--benefits-4-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-benefits--benefits-5 {
+	@extend %svg-common;
+	background-position: 76.36003956478734% 77.33944954128441%;
+}
+
+.svg-benefits--benefits-5-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-footer--facebook-icon {
+	@extend %svg-common;
+	background-position: 99.9083409715857% 25.900514579759864%;
+}
+
+.svg-footer--facebook-icon-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.svg-footer--footer-phone-icon {
+	@extend %svg-common;
+	background-position: 99.9096657633243% 41.773231031543055%;
+}
+
+.svg-footer--footer-phone-icon-dims {
+	width: 14px;
+	height: 23px;
+}
+
+.svg-footer--instagram-icon {
+	@extend %svg-common;
+	background-position: 91.46005509641873% 51.202749140893474%;
+}
+
+.svg-footer--instagram-icon-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-footer--location-icon {
+	@extend %svg-common;
+	background-position: 100% 43.62244897959184%;
+}
+
+.svg-footer--location-icon-dims {
+	width: 15px;
+	height: 20px;
+}
+
+.svg-footer--mail-icon {
+	@extend %svg-common;
+	background-position: 99.81949458483754% 45.246179966044146%;
+}
+
+.svg-footer--mail-icon-dims {
+	width: 13px;
+	height: 18px;
+}
+
+.svg-header--phone-icon {
+	@extend %svg-common;
+	background-position: 99.63636363636364% 22.625215889464595%;
+}
+
+.svg-header--phone-icon-dims {
+	width: 21px;
+	height: 38px;
+}
+
+.svg-header--rect {
+	@extend %svg-common;
+	background-position: 92.12410501193317% 23.6248872858431%;
+}
+
+.svg-header--rect-dims {
+	width: 283px;
+	height: 87px;
+}
+
+.svg-header--star-icon {
+	@extend %svg-common;
+	background-position: 100% 46.65537679932261%;
+}
+
+.svg-header--star-icon-dims {
+	width: 15px;
+	height: 15px;
+}
+
+.svg-header--vector {
+	@extend %svg-common;
+	background-position: 97.68518518518519% 22.664359861591695%;
+}
+
+.svg-header--vector-dims {
+	width: 41px;
+	height: 40px;
+}
+
+.svg-hero--hero-check {
+	@extend %svg-common;
+	background-position: 97.14548802946592% 25.989672977624785%;
+}
+
+.svg-hero--hero-check-dims {
+	width: 35px;
+	height: 34px;
+}
+
+.svg-informed--informed-icon-1 {
+	@extend %svg-common;
+	background-position: 87.24035608308606% 77.33944954128441%;
+}
+
+.svg-informed--informed-icon-1-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-informed--informed-icon-2 {
+	@extend %svg-common;
+	background-position: 98.12067260138477% 77.33944954128441%;
+}
+
+.svg-informed--informed-icon-2-dims {
+	width: 110px;
+	height: 106px;
+}
+
+.svg-meeting--meeting-rect {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.svg-meeting--meeting-rect-dims {
+	width: 349px;
+	height: 262px;
+}
+
+.svg-svg--flesh-drive-icon {
+	@extend %svg-common;
+	background-position: 84.71153846153847% 85.34172661870504%;
+}
+
+.svg-svg--flesh-drive-icon-dims {
+	width: 81px;
+	height: 84px;
+}
+
+.svg-svg--logo-bg {
+	@extend %svg-common;
+	background-position: 0 99.96448863636363%;
+}
+
+.svg-svg--logo-bg-dims {
+	width: 635.07px;
+	height: 632.8px;
+}
+
+.svg-svg--vector {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-svg--vector-dims {
+	width: 772px;
+	height: 563px;
+}
+
+.svg-work-process--work-process-number-1 {
+	@extend %svg-common;
+	background-position: 76.73956262425448% 33.08056872037915%;
+}
+
+.svg-work-process--work-process-number-1-dims {
+	width: 115px;
+	height: 141px;
+}
+
+.svg-work-process--work-process-number-2 {
+	@extend %svg-common;
+	background-position: 88.17097415506959% 33.08056872037915%;
+}
+
+.svg-work-process--work-process-number-2-dims {
+	width: 115px;
+	height: 141px;
+}
+
+.svg-work-process--work-process-number-3 {
+	@extend %svg-common;
+	background-position: 99.30624380574827% 33.08056872037915%;
+}
+
+.svg-work-process--work-process-number-3-dims {
+	width: 112px;
+	height: 141px;
+}
+
+.svg-work-process--work-process-number-4 {
+	@extend %svg-common;
+	background-position: 76.51139742319128% 46.44549763033175%;
+}
+
+.svg-work-process--work-process-number-4-dims {
+	width: 112px;
+	height: 141px;
+}
+
+.svg-work-process--work-process-number-5 {
+	@extend %svg-common;
+	background-position: 87.61149653121903% 46.44549763033175%;
+}
+
+.svg-work-process--work-process-number-5-dims {
+	width: 112px;
+	height: 141px;
+}
+

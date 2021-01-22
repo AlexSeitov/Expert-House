@@ -1,0 +1,55 @@
+.btn-wrap {
+	position: relative;
+}
+
+.btn {
+	position: relative;
+	display: inline-block;
+	padding: 19px 24px 20px 30px;
+	font-weight: 500;
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: $black;
+	background: $gold-gradient;
+
+	&::after {
+		content: "";
+		position: absolute;
+		right: -28px;
+		top: 0;
+		border-style: solid;
+		border-width: 27px 0 27px 28px;
+		border-color: transparent transparent transparent #fff9c6;
+		width: 0;
+		height: 0;
+
+		@media (min-width: 992px) {
+			right: -28px;
+			border-width: 29px 0 29px 28px;
+		}
+	}
+
+	&__rect {
+		position: absolute;
+		left: 3px;
+		top: -35px;
+		width: 214px;
+		height: 124px;
+		fill: transparent;
+		stroke: $gold;
+
+		@media (min-width: 992px) {
+			width: 260px;
+			height: 129px;
+		}
+	}
+
+	@media (min-width: 576) {
+		padding: 21px 37px 24px 43px;
+		font-size: 1.4rem;
+	}
+
+	@media (min-width: 992px) {
+		font-size: 1.6rem;
+	}
+}

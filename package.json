@@ -26,6 +26,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-cheerio": "^1.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-file-include": "^2.2.2",
     "gulp-group-css-media-queries": "^1.2.2",

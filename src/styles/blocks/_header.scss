@@ -1,0 +1,244 @@
+.header {
+	padding: 10px 0;
+	box-shadow: 0 1px 1px 0 $black;
+	background-color: rgba($blue-dark, 0.9);
+
+	&__logo {
+		width: 120px;
+
+		@media (min-width: 576px) {
+			width: 150px;
+		}
+
+		@media (min-width: 1280px) {
+			width: 170px;
+		}
+	}
+
+	&__logo img {
+		max-width: 100%;
+	}
+
+	&__nav-col {
+		display: flex;
+		flex-direction: column;
+
+		@media (min-width: 1200px) {
+			margin-right: 5.2rem;
+		}
+	}
+
+	&__nav {
+		display: flex;
+
+		@media (max-width: 1199px) {
+			position: absolute;
+			right: 0;
+			top: 72px;
+			display: none;
+			padding: 3.1rem 3.9rem 3.1rem 5.1rem;
+			width: 39rem;
+			background-color: $blue-dark;
+			transition: all 0.3s;
+		}
+
+		@media (max-width: 576px) {
+			top: 63px;
+			width: 100%;
+		}
+	}
+
+	&__nav--active {
+		@media (max-width: 1199px) {
+			display: block;
+		}
+	}
+
+	&__btn {
+		@media (min-width: 1200px) {
+			display: none;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		padding: 2.7rem 0;
+	}
+}
+
+.nav {
+	&__list {
+		@media (min-width: 1200px) {
+			display: flex;
+		}
+	}
+
+	&__item {
+		position: relative;
+		margin-bottom: 3rem;
+
+		&:first-child {
+			margin-bottom: 1rem;
+		}
+
+		@media (min-width: 1200px) {
+			margin-bottom: 1.8rem;
+
+			&:not(:first-child) {
+				margin-left: 3.5rem;
+			}
+		}
+	}
+
+	&__link--triangle::after {
+		content: "";
+		position: relative;
+		right: -10px;
+		top: 13px;
+		border-style: solid;
+		border-width: 5px 5px 0;
+		border-color: $gold transparent transparent;
+		width: 0;
+		height: 0;
+	}
+
+	&__link {
+		font-weight: 400;
+		font-size: 1.5rem;
+		text-decoration: none;
+		color: $white;
+		transition: 0.3s;
+
+		&:hover {
+			color: $gold;
+			opacity: 1;
+		}
+
+		@media (min-width: 1200px) {
+			opacity: 0.5;
+		}
+	}
+
+	&__btn {
+		@media (min-width: 1200px) {
+			display: none;
+		}
+	}
+}
+
+.submenu {
+	position: relative;
+	left: 10px;
+	display: block;
+	padding: 2rem;
+	border-radius: 10px;
+	background-color: $blue-dark;
+	transition: 0.3s;
+
+	&__item:not(:last-child) {
+		margin-bottom: 2.5rem;
+	}
+
+	@media (min-width: 1200px) {
+		position: absolute;
+		display: none;
+		background-color: $blue-dark2;
+	}
+}
+
+.nav__item:first-child:hover .submenu {
+	display: block;
+}
+
+.description {
+	order: -1;
+	margin-bottom: 3rem;
+	font-weight: 400;
+	font-size: 1.2rem;
+	line-height: 1.6;
+	color: $white;
+
+	&__icon {
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+		width: 15px;
+		height: 15px;
+		fill: $gold;
+
+		@media (min-width: 1200px) {
+			margin-bottom: 0;
+		}
+	}
+
+	&__text a {
+		margin-left: 0.5rem;
+		color: $gold;
+
+		&:hover {
+			color: $orange;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		order: 1;
+		margin-bottom: 0;
+	}
+}
+
+.phones {
+	position: relative;
+
+	&__icons-wrap {
+		@media (min-width: 1200px) {
+			display: none;
+		}
+
+		@media (min-width: 1366px) {
+			display: block;
+		}
+	}
+
+	&__icon {
+		z-index: 2;
+		margin-top: 10px;
+		margin-right: 2.4rem;
+		width: 21px;
+		height: 38px;
+		fill: $gold;
+	}
+
+	&__icon-rect {
+		position: absolute;
+		left: -6px;
+		top: 20px;
+		z-index: 1;
+		width: 39px;
+		height: 38px;
+		fill: transparent;
+		stroke: $gold;
+	}
+
+	&__link {
+		font-size: 1.4rem;
+		line-height: 3.2rem;
+		text-decoration: none;
+		color: $white;
+
+		@media (min-width: 1280px) {
+			font-size: 1.8rem;
+		}
+	}
+
+	&__link ~ span {
+		margin-left: 1rem;
+		font-size: 1.2rem;
+		color: $gray;
+
+		@media (min-width: 1280px) {
+			font-size: 1.4rem;
+		}
+	}
+
+	@media (max-width: 1199px) {
+		margin-bottom: 3rem;
+	}
+}
